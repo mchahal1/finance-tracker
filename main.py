@@ -5,13 +5,15 @@ allowance = 0
 food = 0
 clothing = 0
 entertainment = 0
+other = 0
 
-allowance = int(input("whats ur allowance"))
+allowance = int(input("what's your allowance?"))
 food = int(input("How much did you spend on food?"))
 clothing = int(input("How much did you spend on clothing?"))
 entertainment = int(input("How much did you spend on entertainment?"))
+other = int(input("Cost of anything else?"))
 # Calculate total expenses and remaining balance
-answer = allowance - food - clothing - entertainment
+answer = allowance - food - clothing - entertainment - other
 
 # Display results
 print("Here's your balance:")
